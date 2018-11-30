@@ -68,7 +68,10 @@ function move(fleet, destination) {
 (function() {
     'use strict';
     $(document.body).append('<button id="auto-move" class="input-button">移动</button>');
-    $("#auto-move").
+    $("#auto-move").css("float", "left");
+    $("#auto-move").css("position", "absolute");
+    $("#auto-move").css("top", "20%");
+    $("#auto-move").css("left", "20%");
     $("#auto-move").click(onClick);
     // Your code here...
 })();
