@@ -24,7 +24,7 @@ function move(fleet, destination) {
         document.body.appendChild(div);
         div.innerHTML = data;
         var units = $(div).find("#units").val().split(',');
-        console.log(units);
+        //console.log(units);
         if (units.length <= 0) {
             return;
         }
