@@ -6,7 +6,7 @@
 // @author       You
 // @match        http://*.astroempires.com/*
 // @grant        none
-// @require https://cdn.astroempires.com/javascript/js_move_v1.5.js
+// @require      https://cdn.astroempires.com/javascript/js_move_v1.5.js
 // ==/UserScript==
 
 function onClick() {
